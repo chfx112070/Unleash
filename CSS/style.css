@@ -1,0 +1,155 @@
+body {
+    font-family: "DM Sans", sans-serif;
+    background-color: #e2dec9;
+    color: #84909a;
+    font-family: "Raleway", sans-serif;
+  }
+  header {
+    background-color: #5d8fb0;
+    color: #e2dec9;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 35px;
+  }
+  
+  .logo img {
+    width: 80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #e2dec9;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #8db3d4;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .hero img {
+    width: 30%;
+    height: auto;
+  }
+  
+  .headline h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #e2dec9;
+    text-shadow: 4px 4px 12px rgba(0, 0.5, 0.5, 0.5);
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 80px;
+  }
+  
+  .headline p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #84909a;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #8baecc;
+    color: #e2dec9;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #8db3d4;
+    color: #e2dec9;
+  }
+  
+  /* About Section Styles */
+  .about {
+    background-color: #e2dec9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8db3d4;
+  }
+  
+  .about p {
+    font-size: 1.2em;
+    color: #84909a;
+  }
+  
+  .projects {
+    background-color: #e2dec9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .projects h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8db3d4;
+  }
+  
+  .project-card {
+    background-color: #e2dec9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #84909a;
+  }
+  
+  .project-card p {
+    font-size: 1em;
+    color: #84909a;
+  }
+  
+  .contact {
+    background-color: #e2dec9;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #8db3d4;
+  }
+  
