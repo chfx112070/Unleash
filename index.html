@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
+</style>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/Unleash/CSS/styles.css" />
+  <title>unleash</title>
+</head>
+
+<body>
+  <div id="body1"></div>
+  <header>
+    <div class="logo">
+      <img
+        src="/Unleash/media/IMG_1471[257].JPG"
+        alt="Your Logo"
+      />
+    </div>
+    <audio controls autoplay loop>
+      <source
+        src="/Unleash/media/Chris Botti-Emmanuel.mp3"
+        type="audio/mpeg"
+      />
+    </audio>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="https://www.behance.net/galleries?tracking_source=nav20">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img
+      src="/Unleash/media/duchamp_marcel_1.jpg"
+      alt="Hero Image"
+    />
+    <div class="headline">
+      <h1>Unleash Your Creativity</h1>
+      <p>
+        Explore the intersection of design and innovation inspired by late 2000s
+        and early 2010s art style.
+      </p>
+      <a href="get started.html" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        To bring art and design together, creating a seamless experience.<br />
+        In the late 2000s and early 2010s, a dynamic fusion of art, design, and
+        innovation emerged, shaping a distinctive aesthetic that seamlessly
+        integrated creativity with functionality. This era witnessed a departure
+        from traditional norms, embracing an avant-garde approach characterized
+        by the intersection of digital and analog elements.
+
+        <br />The rise of new media and digital tools empowered artists to
+        explore unprecedented creative realms. Visual arts experienced a shift
+        towards conceptual and experimental dimensions, with artists
+        incorporating interactive and multimedia elements into their works. Bold
+        colors, geometric shapes, and dynamic compositions defined this period's
+        visual landscape.
+      </p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <h2>Artist works</h2>
+    <div class="project-card">
+      <h3>Andy Warhol, Big Electric Chair, 1967-68</h3>
+      <img
+        src="/Unleash/media/20160301_153352.jpg"
+        alt="Project 1"
+      />
+      <p>
+        The chair, and its brutal reduction of life to nothingness, is given a
+        typically deadpan presentation by Warhol. The image of an unoccupied
+        electric chair in an empty execution chamber becomes a poignant metaphor
+        for death.
+      </p>
+    </div>
+    <div class="project-card">
+      <h3>Laurie Simmons,Walking Hourglass,1987–91</h3>
+      <img
+        src="/Unleash/media/default.jpg"
+        alt="Project 2"
+      />
+      <p>
+        Simmons offers commentary on how women are represented in popular media
+        through a memorably surreal image. The artist emerged in the 1980s as a
+        prominent member of the 'Pictures Generation' alongside Cindy Sherman
+        and Louise Lawler.
+      </p>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Have questions or want to collaborate? Reach out to us!</p>
+  </section>
+
+  <div id="body2" class="hidden"></div>
+  
+  
+  <script>
+    function toggleBodies() {
+        var body1 = document.getElementById("body1");
+        var body2 = document.getElementById("body2");
+
+        if (body1.style.display === "none") {
+            // Show body 1 and hide body 2
+            body1.style.display = "block";
+            body2.style.display = "none";
+        } else {
+            // Show body 2 and hide body 1
+            body1.style.display = "none";
+            body2.style.display = "block";
+        }
+    }
+
+</script>
+</body>
